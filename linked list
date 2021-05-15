@@ -1,0 +1,11 @@
+class linkedlist:
+  def fun(*a):
+    for i in a:
+      print(i)
+  
+list=[1,2,3,4,5]  
+list.append(6)
+p=linkedlist()
+p.fun(list)
+
+  
