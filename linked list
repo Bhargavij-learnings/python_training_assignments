@@ -3,9 +3,12 @@ class linkedlist:
     for i in a:
       print(i)
   
-list=[1,2,3,4,5]  
+list=[1,2,3,4,5] 
+item=4
 list.append(6)
 p=linkedlist()
 p.fun(list)
+index =list.index(item)
+print(index)
 
   
